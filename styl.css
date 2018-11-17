@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    background-image:url(backjpg.jpg);
+    background-repeat:repeat;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column img
+{
+	width: 100%;
+	border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 1px; /* Some padding */
+}
+.column img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.row{
+	padding-left: 300px;
+}
+.head{
+	display: inline-block;
+}
+div.image {
+   content:url(fir2.jpg);
+}​
+button {
+    display: inline-block;
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+}
+
+#close-image img {
+    display: block;
+    height: 235px;  
+    width: 385px;
+}

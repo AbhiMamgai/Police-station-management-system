@@ -1,0 +1,81 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.navigation{
+  background-color: rgba(255 100 67 0.9);
+  overflow: auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+li{
+  display: inline-block;
+  color: rgb(125 422 100);
+  font-size: 16px;
+  margin: 16px 20px;
+}
+#logo {
+  color: #FCA311;
+  font-family: 'Amatic SC';
+  font-size: 32px;
+  padding: 0px 50px;
+}
+
+.contain {
+   box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 280px;
+  width: 70%;
+  max-width: 940px;
+  padding: 0 10px;
+}
+#cover{
+  border: 2px solid ;
+  height: 800px;
+  background-size: cover;
+}
+#textboxid
+{
+  height:500px;
+  width:500px;
+}
+.header{
+  color: Pink;
+  font-family: 'Amatic SC', cursive;
+  font-size: 72px;
+  line-height: 60px;
+  padding: 20px 10px;
+  text-align: center;
+}
+h2 {
+  color: brown;
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+}
+.btn {
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 26px;
+  padding: 14px;
+}
+img{
+border: 3px solid rbg(554 785 255);
+background-color: Black;
+position: relative;
+margin: auto;
+padding: auto;
+display: block;
+} 
+h1{
+  font-size: 40px;
+}
+ul{
+  color: red;
+}
